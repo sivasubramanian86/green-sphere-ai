@@ -1,0 +1,128 @@
+/* src/index.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Home Page Styles */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.home-nav {
+  margin: 20px 0;
+}
+
+.home-link {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-link:hover {
+  background-color: #45a049;
+}
+
+.home-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.home-content h2 {
+  color: #4CAF50;
+}
+
+/* Sign Up and Sign In Styles */
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .home-header, .container {
+    padding: 10px;
+  }
+
+  .home-link {
+    margin: 5px;
+    padding: 5px 10px;
+  }
+}
+

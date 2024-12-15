@@ -1,0 +1,40 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard-nav {
+  margin: 20px 0;
+}
+
+.dashboard-link {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.dashboard-link:hover {
+  background-color: #45a049;
+}
+
+.dashboard-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.dashboard-content h2 {
+  color: #4CAF50;
+}
+

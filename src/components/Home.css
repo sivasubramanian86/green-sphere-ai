@@ -1,0 +1,64 @@
+/* src/components/Home.css */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.home-nav {
+  margin: 20px 0;
+}
+
+.home-link {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-link:hover {
+  background-color: #45a049;
+}
+
+.home-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.home-content h2 {
+  color: #4CAF50;
+}
+
+.home-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.home-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-content li {
+  margin: 5px 0;
+}
+
+.home-content a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.home-content a:hover {
+  text-decoration: underline;
+}
+
